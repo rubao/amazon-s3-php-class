@@ -1,0 +1,27 @@
+{
+    "name":"mackstann/amazon-s3-php-class",
+    "description":"Amazon S3",
+    "type":"library",
+    "keywords":[ "s3", "amazon", "amazon-s3-php-class" ],
+    "homepage":"https://github.com/mackstann/amazon-s3-php-class",
+    "license":"MIT",
+    "version": "1.0.0",
+    "authors":[
+        {
+            "name":"Nick Welch",
+            "email":"nick@incise.org",
+            "homepage":"https://github.com/mackstann",
+            "role":"Lead Developer"
+        }
+    ],
+    "require":{
+        "php":">=5.3.0"
+    },
+    "require-dev":{
+    },
+    "autoload":{
+        "psr-0":{
+            "S3":"lib/"
+        }
+    }
+}
